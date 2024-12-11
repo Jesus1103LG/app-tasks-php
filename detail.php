@@ -10,7 +10,6 @@ $traer_tarea = "select * from tarea where id=$tarea";
 $consulta = mysqli_query($conection, $traer_tarea);
 $result = mysqli_fetch_array($consulta);
 
-// var_dump($result);
 ?>
 
 <!DOCTYPE html>
